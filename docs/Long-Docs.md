@@ -2,5 +2,5 @@
 
 ## Docs cho api bán đồng hồ
 
-- Gồm api về login, các loại tương tác với db.
+###### api login có tác dụng gửi request đến server yêu cầu login vào hệ thống
 
