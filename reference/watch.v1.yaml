@@ -190,7 +190,7 @@ paths:
 components:
   schemas:
     User:
-      title: User
+      title: User Output
       type: object
       description: output api login
       x-examples:
