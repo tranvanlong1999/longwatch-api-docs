@@ -134,6 +134,18 @@ components:
           phone: '0358172099'
           Sex: 1
           Address: Ha Noi
+        example-2:
+          username: Luong@gmail.com
+          password: '122'
+          fullname: Ninh van Luong
+          phone: '0358172099'
+          address: Hai Duong
+          status: 1
+          role: 1
+          email: Luong@gmail.com
+          sex: 1
+          joinedat: '2021-02-01'
+          createdby: Tran van Long
       properties:
         id:
           description: Unique identifier for the given user.
@@ -154,6 +166,11 @@ components:
           type: string
           format: date
           description: The date that the user was created.
+        role:
+          type: integer
+          description: '1 la admin, 2 la khach hang'
+        status:
+          type: integer
       required:
         - id
         - username
